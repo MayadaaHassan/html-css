@@ -1,0 +1,185 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+    overflow: none;
+    overflow-y: hidden;
+}
+
+.header {
+    display: fixed;
+    background-color: #FFF5EE;
+    color: #000000;
+    padding: 1rem 0;
+}
+h1{
+    font-style:italic;
+    font-family: 'Dancing Script';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.logo img{
+position: fixed;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 50px;
+    }
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin-left: 1rem;
+}
+
+.navbar ul li a {
+    color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pricing {
+    background-color: #ededed;
+    height: 50px;
+    padding: 40px;
+}
+
+.pricing h2 {
+    text-align: center;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.plan {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    flex-direction: row;
+    display: grid;
+    margin: 25px;
+}
+
+.plan h3 {
+    margin-bottom: 20px;
+}
+
+.plan p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #038a6d;
+    background-color: #ededed;
+}
+.text{
+    text-align: center;
+}
+
+.plan p span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plan li {
+    margin-bottom: 10px;
+}
+
+.plan .btn {
+    display: inline-block;
+    background-color: #038a6d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.categories {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: left;
+    width: 30%;
+    margin: 15px;
+}
+
+.categories h3 {
+    margin-bottom: 10px;
+}
+
+.categories ul {
+    list-style-type: upper-roman;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    margin-bottom: 5px;
+    list-style-type:disc;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 495px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.social-media li {
+    margin: 0 0.5rem;
+    display: flex; 
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.icons {
+    font-size: 40px;
+    font-family: "FontAwesome";
+    font-style: normal;
+    vertical-align: middle;
+    justify-items: center;
+    padding: 20px;
+}

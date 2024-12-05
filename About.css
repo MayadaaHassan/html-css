@@ -1,0 +1,145 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+    overflow: none;
+    overflow-y: hidden;
+}
+
+.header {
+    display: fixed;
+    background-color: #FFF5EE;
+    color: #000000;
+    padding: 1rem 0;
+    height: 17px;
+}
+h1{
+    font-style:italic;
+    font-family: 'Dancing Script';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.logo img{
+position: fixed;
+     top: 0;
+     left: 0;
+     width: 100px;
+     height: 50px;
+    }
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    }
+    
+.navbar ul li {
+    margin-left: 1rem;
+    }
+    
+.navbar ul li a {
+    display: flex;
+    color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none; 
+    line-height: 0.5px;
+    }
+.about {
+    background-color: #74efd5;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+    height: 55px;
+}
+
+.team-header {
+    background-color: #038a6d;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.icon-unkown{
+    color:#5d5d5d;
+    font-size: 40px;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    line-height: 1.2;
+    margin-right: 20px;
+}
+span{
+    font-size: x-large;
+}
+
+.team {
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+.team-member {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    margin: 20px;
+    line-height: 1.2; 
+    justify-content: space-between;
+    width: 20%;
+    height: 20%;
+    padding: 10px;
+}
+.team-member p{
+font-size: medium;
+}
+
+.team-member img {
+    width: 100px;
+    border-radius: 50%;
+}
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+.social-media li {
+    margin: 0 0.5rem;
+    display: flex; 
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.icons {
+    font-size: 40px;
+    font-family: "FontAwesome";
+    font-style: normal;
+    vertical-align: middle;
+    justify-items: center;
+    padding: 20px;
+}

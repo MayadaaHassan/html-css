@@ -1,0 +1,146 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+    overflow: none;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+
+.header {
+    display: fixed;
+    background-color: #FFF5EE;
+    color: #000000;
+    padding: 1rem 0;
+}
+h1{
+    font-style:italic;
+    font-family: 'Dancing Script';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.logo img{
+position: fixed;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 50px;
+    }
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin-left: 1rem;
+}
+
+.navbar ul li a {
+    color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar ul li a.active {
+    color: #FF6347;
+}
+.contact-header {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 5px 0;
+}
+
+.map-container {
+    margin: 2px 0;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    gap: 20px;
+
+}
+
+.form-section, .info-section {
+    width: 48%;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-section h3, .info-section h3 {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    width: 85%;
+    padding: 2px;
+    margin: 2px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    background: #038a6d;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.info-section a {
+    color: orange;
+    text-decoration: none;
+}
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.social-media li {
+    margin: 0 0.5rem;
+    display: flex;
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.icons {
+    font-size: 40px;
+    font-family: "FontAwesome";
+    font-style: normal;
+    vertical-align: middle;
+    justify-items: center;
+    padding: 20px;
+}

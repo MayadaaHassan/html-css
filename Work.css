@@ -1,0 +1,158 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+    overflow: none;
+    /* overflow-y: hidden; */
+    background-color: #fff;
+}
+
+.header {
+    display: fixed;
+    background-color: #FFF5EE;
+    color: #000000;
+    padding: 1rem 0;
+}
+h1{
+    font-style:italic;
+    font-family: 'Dancing Script';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.logo img{
+position: fixed;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 50px;
+    }
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin-left: 1rem;
+}
+
+.navbar ul li a {
+    color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+.work-text {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+   
+}
+.work-header {
+    background-color: #038a6d;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 30px;
+}
+.icon-paint{
+    color:#5d5d5d;
+    font-size: 40px;
+    font-family: "FontAwesome";
+    font-style: normal;
+    line-height: 1.2;
+    margin-right: 20px;
+}
+span{
+    font-size: x-large;
+}
+
+.work-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 0px;
+    margin: 50px 150px 20px;
+    width: 80%; 
+    height: auto;
+}
+.work-item {
+    row-gap: 10px; 
+    border-radius: 5px; 
+    padding: 10px; 
+    width: 90%; 
+    height: 20%;
+    text-align: center; 
+    flex-direction: column; 
+    justify-content: flex-start;
+    gap: 0px;
+    box-sizing: border-box; 
+    line-height: 1.2; 
+    float: left;
+}
+.work-item img {
+    max-width:90%; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.work-item h3 {
+    font-size: 1.2rem; 
+    margin: 10px 0 5px;
+}
+
+.work-item p {
+    font-size: 0.9rem; 
+    margin: 0; 
+    color: #555; 
+}
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.social-media li {
+    margin: 0 0.5rem;
+    display: flex;
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.icons {
+    font-size: 40px;
+    font-family: "FontAwesome";
+    font-style: normal;
+    vertical-align: middle;
+    justify-items: center;
+    padding: 20px;
+}

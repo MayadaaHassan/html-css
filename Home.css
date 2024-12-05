@@ -1,0 +1,165 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 0.7;
+    overflow-y: hidden;
+} 
+
+.header {
+    display: fixed;
+    background-color: #FFF5EE;
+    color: #000000;
+    padding: 1rem 0;
+}
+h1{
+    font-style:italic;
+    font-family: 'Dancing Script';
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo h1 {
+    margin: 0;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.logo img{
+position: fixed;
+            top: 0;
+            left: 0;
+            width: 100px;
+            height: 50px;
+    }
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin-left: 1rem;
+}
+
+.navbar ul li a {
+    color: #000000;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar ul li a.active {
+    color: #09bf98;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #038a6d;
+    color: #fff;
+    padding: 1rem 0;
+    overflow: hidden;
+}
+
+.hero-text h2 {
+    font-size:xx-large;
+    line-height: 1.2; 
+}
+h3{
+    text-align: left;
+    margin-left: 50px;
+}
+.feature-box p{
+    text-align: left;
+    margin-left: 50px;
+}
+
+.hero-text p {
+    font-size: large;
+    margin: 1rem 0;
+    line-height: 1.2; 
+}
+
+.btn {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: #f4f4f4;
+    padding: 1rem 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+}
+
+.feature-box {
+    width: 90%;
+    background: #fff;
+    margin: 1rem ;
+    padding: 0.9rem;
+    text-align: center;
+    border-radius: 5px;
+}
+.feature-box .icon{
+    color:#5d5d5d;
+    font-size: 40px;
+    font-family: "FontAwesome";
+    float: left;
+    font-style: normal;
+    line-height: 1.2; 
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.social-media li {
+    margin: 0 0.5rem;
+    display: flex;
+}
+
+.social-media li a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+.icons {
+    font-size: 40px;
+    font-family: "FontAwesome";
+    font-style: normal;
+    vertical-align: middle;
+    justify-items: center;
+    padding: 20px;
+}
