@@ -17,6 +17,7 @@ body {
 h1{
     font-style:italic;
     font-family: 'Dancing Script';
+    color: red;
 }
 
 .container {
